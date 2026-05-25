@@ -6,7 +6,7 @@ berdasarkan prinsip SOLID.
 
 | No | Nama | NIM | Prinsip SOLID |
 |----|------|-----|---------------|
-| 1  | Diah Anggraeni | [K3525056] | S - Single Responsibility 
+| 1  | Diah Anggraeni | K3525055 | S - Single Responsibility 
 | 2  | Arofa Karindra Bimantara       | K3525051 | O - Open/Closed           
 | 3  | Febriana Putri Qurata'ayun       | K3525007 | L - Liskov Substitution   
 | 4  | Queennera Martha Kusuma W       | K3525012 | I - Interface Segregation 
