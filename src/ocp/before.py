@@ -13,4 +13,4 @@ class KebunBinatang:
     def rawat_semua_hewan(self):
         for hewan in self.kandang.hewan_list:
             hewan.makan()
-            hewan.terbang() # <-- Masalah Utama
+            hewan.terbang()
