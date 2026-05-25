@@ -15,7 +15,6 @@ class IBisaBerenang(ABC):
     def berenang(self):
         pass
 
-# Burung: bisa makan + terbang
 class Burung(IBisaMakan, IBisaTerbang):
     def __init__(self, nama):
         self.nama = nama
@@ -26,7 +25,6 @@ class Burung(IBisaMakan, IBisaTerbang):
     def terbang(self):
         print(f"{self.nama} sedang terbang.")
 
-# Singa: hanya bisa makan (tidak dipaksa implement terbang)
 class Singa(IBisaMakan):
     def __init__(self, nama):
         self.nama = nama
