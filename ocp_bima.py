@@ -1,3 +1,4 @@
+# BIMA GACOR
 from abc import ABC, abstractmethod
 
 class Hewan(ABC):
