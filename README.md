@@ -44,3 +44,23 @@ class KebunBinatang:
         for hewan in self.kandang.hewan_list:
             hewan.makan()
             hewan.terbang()
+
+## Struktur Repository
+
+```text
+src2/
+├── habitat/
+│   └── kandang.py
+├── hewan/
+│   ├── hewan.py
+│   ├── hewan_darat.py
+│   └── hewan_terbang.py
+├── interface/
+│   ├── bisa_berenang.py
+│   └── bisa_terbang.py
+├── services/
+│   ├── pemberian_makan.py
+│   └── perawatan.py
+├── zoo/
+│   └── kebun_binatang.py
+└── main.py
